@@ -1,0 +1,16 @@
+{ 
+    "Version": "2012-10-17",
+    "Statement": [
+        { "Effect": "Allow",
+         "Action": [ 
+             "cloudformation:CreateStack", 
+             "cloudformation:DescribeStacks",
+             "cloudformation:DeleteStack",
+             "cloudformation:DescribeStackEvents",
+             "cloudformation:UpdateStack",
+             "iam:PassRole" 
+             ], 
+             "Resource": "*" 
+        } 
+    ] 
+}
