@@ -33,6 +33,7 @@ Parameters:
   GitHubToken:
     Type: String
     NoEcho: true
+    Default: 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
     Description: GitHub API token - see https://github.com/blog/1509-personal-api-tokens
     MinLength: 3
     MaxLength: 100
@@ -56,7 +57,7 @@ Parameters:
 
   KubectlRoleName:
     Type: String
-    Default: UdacityFlaskDeployCBKubectlRole2
+    Default: UdacityFlaskDeployCBKubectlRole
     Description: IAM role used by kubectl to interact with EKS cluster
     MinLength: 3
     MaxLength: 100
