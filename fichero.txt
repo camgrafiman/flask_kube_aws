@@ -1,0 +1,2 @@
+NAME             TYPE           CLUSTER-IP      EXTERNAL-IP                                                               PORT(S)        AGE     SELECTOR
+simple-jwt-api   LoadBalancer   10.100.249.44   a5234d0d8001949b6b69efc1eda22375-1120574438.us-east-2.elb.amazonaws.com   80:32273/TCP   8m18s   app=simple-jwt-api
