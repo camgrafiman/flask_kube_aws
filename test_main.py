@@ -7,7 +7,7 @@ import pytest
 
 import main.__init__ as __init__
 
-SECRET = 'TestSecret'
+SECRET = 'myjwt'
 TOKEN = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1NjEzMDY3OTAsIm5iZiI6MTU2MDA5NzE5MCwiZW1haWwiOiJ3b2xmQHRoZWRvb3IuY29tIn0.IpM4VMnqIgOoQeJxUbLT-cRcAjK41jronkVrqRLFmmk'
 EMAIL = 'wolf@thedoor.com'
 PASSWORD = 'huff-puff'
